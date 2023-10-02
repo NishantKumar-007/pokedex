@@ -6,11 +6,20 @@ import '../style/Case.css';
 
 function Case() {
     return (
-     <div className='outercase'>
-        <Top></Top>
-        <Display></Display>
-        <Bottom></Bottom>
-     </div>
+     <div class="cube">
+      <div class="face outercase">
+      <Top></Top>
+      <Display></Display>
+      <Bottom></Bottom>
+      </div>
+      <div class="face back"></div>
+      <div class="face top"></div>
+      <div class="face bottom"></div>
+      <div class="face left"></div>
+      <div class="face right"></div>
+   </div>
+
+     
 
     )
   }

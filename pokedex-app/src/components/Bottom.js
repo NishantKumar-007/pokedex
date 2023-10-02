@@ -1,8 +1,11 @@
 import React from 'react';
+import Button from './Button'
 
 function Bottom() {
     return (
-      <h1>Bottom</h1>
+      <div>
+        <Button></Button>
+      </div>
     )
   }
   
